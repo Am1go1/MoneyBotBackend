@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using MoneyBotBackend.DbContext;
 using MoneyBotBackend.Models;
 using MoneyBotBackend.Models.Dto;
@@ -28,14 +29,28 @@ namespace MoneyBotBackend.Controllers
             { 
                 PhoneNumberPrefix = userIdentity.PhoneNumberPrefix,
                 PhoneNumber = userIdentity.PhoneNumber,
-                Password = userIdentity.Password,
-                Moneys = new List<Money>()
+                Password = userIdentity.Password
             };
 
             _context.Users.Add(user);
 
             await _context.SaveChangesAsync();
 
+            return Ok();
+        }
+
+        [HttpPost("auth")]
+        public async Task<ActionResult> Login(UserIdentity userIdentity)
+        {
+            User user = await _context.Users.FirstOrDefaultAsync(u =>
+                u.PhoneNumberPrefix == userIdentity.PhoneNumberPrefix &&
+                u.PhoneNumber == userIdentity.PhoneNumber &&
+                u.Password == userIdentity.Password);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
             return Ok();
         }
     }
