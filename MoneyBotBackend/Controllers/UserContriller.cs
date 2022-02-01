@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -16,10 +17,12 @@ namespace MoneyBotBackend.Controllers
     public class UserContriller : ControllerBase
     {
         public MoneyBotContext _context;
+        public IMapper _mapper;
 
-        public UserContriller(MoneyBotContext context)
+        public UserContriller(MoneyBotContext context, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
         }
 
         [HttpPost("register")]
@@ -47,11 +50,23 @@ namespace MoneyBotBackend.Controllers
                 u.PhoneNumber == userIdentity.PhoneNumber &&
                 u.Password == userIdentity.Password);
 
-            if (user == null)
-            {
-                return NotFound();
-            }
+            if (user == null) return NotFound();
+           
             return Ok();
+        }
+
+        [HttpGet("{userId}")]
+        public async Task<ActionResult<UserInformationDto>> Get(int userId)
+        {
+            User user = await _context.Users.FirstOrDefaultAsync(x => 
+            x.Id == userId);
+
+            if (user == null) return NotFound();
+
+            UserInformationDto userInformationDto = 
+                _mapper.Map<UserInformationDto>(user);
+
+            return userInformationDto;
         }
     }
 }

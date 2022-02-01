@@ -113,8 +113,6 @@ C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\bin\Debug\netco
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.csprojAssemblyReference.cache
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.AssemblyInfoInputs.cache
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.AssemblyInfo.cs
-C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.csproj.CoreCompileInputs.cache
-C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.RazorTargetAssemblyInfo.cache
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.csproj.CopyComplete
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\staticwebassets\MoneyBotBackend.StaticWebAssets.Manifest.cache
@@ -122,3 +120,8 @@ C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netco
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.dll
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.pdb
 C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.genruntimeconfig.cache
+C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.csproj.CoreCompileInputs.cache
+C:\Users\StudentDev\source\repos\MoneyBotBackend\MoneyBotBackend\obj\Debug\netcoreapp3.1\MoneyBotBackend.MvcApplicationPartsAssemblyInfo.cache
