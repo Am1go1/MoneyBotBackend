@@ -1283,23 +1283,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\StudentDev\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\StudentDev\\source\\repos\\MoneyBotBackend\\MoneyBotBackend\\MoneyBotBackend.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\GitHub\\MoneyBotBackend\\MoneyBotBackend\\MoneyBotBackend.csproj",
       "projectName": "MoneyBotBackend",
-      "projectPath": "C:\\Users\\StudentDev\\source\\repos\\MoneyBotBackend\\MoneyBotBackend\\MoneyBotBackend.csproj",
-      "packagesPath": "C:\\Users\\StudentDev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\StudentDev\\source\\repos\\MoneyBotBackend\\MoneyBotBackend\\obj\\",
+      "projectPath": "C:\\Users\\user\\Documents\\GitHub\\MoneyBotBackend\\MoneyBotBackend\\MoneyBotBackend.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\Documents\\GitHub\\MoneyBotBackend\\MoneyBotBackend\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\StudentDev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1361,7 +1361,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

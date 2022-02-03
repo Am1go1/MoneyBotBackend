@@ -14,19 +14,19 @@ namespace MoneyBotBackend.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class UserContriller : ControllerBase
+    public class UserController : ControllerBase
     {
         public MoneyBotContext _context;
         public IMapper _mapper;
 
-        public UserContriller(MoneyBotContext context, IMapper mapper)
+        public UserController(MoneyBotContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
         [HttpPost("register")]
-        public async Task <ActionResult> Regirter(UserIdentity userIdentity)
+        public async Task <ActionResult> Register(UserIdentity userIdentity)
         {
             User user = new User() 
             { 
