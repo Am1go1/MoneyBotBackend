@@ -50,9 +50,9 @@ namespace MoneyBotBackend.Controllers
                 u.PhoneNumber == userIdentity.PhoneNumber &&
                 u.Password == userIdentity.Password);
 
-            if (user == null) return NotFound();
+            if (user == null) return NotFound("Неверный логин или пороль");
            
-            return Ok();
+            return Ok("Успешная авторизация");
         }
 
         [HttpGet("{userId}")]

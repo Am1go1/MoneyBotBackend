@@ -9,8 +9,8 @@ using MoneyBotBackend.DbContext;
 namespace MoneyBotBackend.Migrations
 {
     [DbContext(typeof(MoneyBotContext))]
-    [Migration("20220208162357_addUserIdToMoney")]
-    partial class addUserIdToMoney
+    [Migration("20220210152207_InitialCreate")]
+    partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
